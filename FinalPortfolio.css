@@ -1,0 +1,31 @@
+.body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .audio-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 15vh;
+}
